@@ -1,0 +1,47 @@
+<ion-view view-title="Home">
+  <ion-content class="padding">
+
+    <div class="bar bar-header">
+      <h1 class="title">Choose Your Bottle</h1>
+    </div>
+
+    <br><br><br>
+
+    
+
+    <div class="row">
+      <div class="col col-50">
+        <img src="img/bwbottle.png" ng-click="bottleSelect('bwbottle.png')">
+      </div>
+      <div class="col col-50">
+        <img src="img/greenbottle.png" ng-click="bottleSelect('greenbottle.png')">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-50">
+        <img src="img/cerveza.png" ng-click="bottleSelect('cerveza.png')">
+      </div>
+      <div class="col col-50">
+        <img src="img/glass.png" ng-click="bottleSelect('glass.png')">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-50">
+        <img src="img/can.png" ng-click="bottleSelect('can.png')">
+      </div>
+      <div class="col col-50">
+        <img src="img/keg.png" ng-click="bottleSelect('keg.png')">
+      </div>
+    </div>
+
+    <div class="row">
+      <button class="button button-block button-positive" ng-click="random()">
+        Random Bottle
+      </button>
+    </div>
+
+
+  </ion-content>
+</ion-view>
